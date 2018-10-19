@@ -216,7 +216,7 @@ const setCat = (req, res) => {
   return res;
 };
 
-const setCDog = (req, res) => {
+const setDog = (req, res) => {
   // check if the required fields exist
   // normally you would also perform validation
   // to know if the data they sent you was real
@@ -342,9 +342,13 @@ module.exports = {
   page1: hostPage1,
   page2: hostPage2,
   page3: hostPage3,
+    page4: hostPage4,
   readCat,
-  getName,
-  setName,
+    readDog,
+  getCat,
+    getDog,
+  setCat,
+    setDog,
   updateLast,
   searchName,
   notFound,
